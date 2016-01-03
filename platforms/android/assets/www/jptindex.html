@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <title>My App</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+     <link href="css/search.css" rel="stylesheet">
+    <!-- Path to Framework7 Library CSS-->
+    <link rel="stylesheet" href="css/framework7.ios.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/my-app.css">
+</head>
+<body>
+<!-- Status bar overlay for fullscreen mode-->
+<div class="statusbar-overlay"></div>
+<!-- Right panel with cover effect-->
+<div class="panel panel-right panel-reveal">
+    <div class="content-block">
+        <p>Right panel content goes here</p>
+    </div>
+</div>
+
+
+
+<!-- Views-->
+<div class="views">
+    <!-- Put panels-overlay and left-panel with view inside of views-->
+    <!-- Panels overlay-->
+    <div class="panel-overlay"></div>
+    <!-- Left panel with reveal effect-->
+    <div class="panel panel-left panel-cover">
+        <!-- Left view-->
+        <div class="view view-left navbar-through">
+
+            <div class="content-block">
+                <p><h3>Recycle Up!</h3></p>
+                <ul class="nav navbar-nav navbar-left" style="color:white;">
+                    <li class="active"><a href="#">All Sections</a></li>
+                    <li><a href="test.html">All Unreads</a></li>
+                    <li><a href="form.html">All Fav</a></li>
+                    <label>WHAT'S NEW</label>
+                    <li><a href="#">New Stories</a></li>
+                    <li><a href="#">Videos</a></li>
+                    <li><a href="#">Pictures</a></li>
+                    <li><a href="#">Buy & Sale</a></li>
+                    <li><a href="#">Share Ur Story</a></li>
+                    <label>RESOURCES</label>
+                    <li><a href="#">Know How</a></li>
+                    <li><a href="#">Creativity</a></li>
+                    <label>TRENDS</label>
+                    <li><a href="#">Technology</a></li>
+                    <li><a href="#">Research & Survey</a></li>
+                    <label>WEB</label>
+                    <li><a href="#">Recycle Up</a></li>
+                    <label>TOOLS</label>
+                    <li><a href="#">Sync Now</a></li>
+                    <li><a href="#">Switch Theme</a></li>
+                    <li><a href="#">Settings</a></li>
+                </ul>
+            </div>
+
+            <!-- <div class="pages">
+              <div data-page="index-left" class="page">
+                <div class="page-content">
+                  <div class="content-block-title">Left View Links</div>
+                  <div class="list-block">
+                    <ul>
+                      <li><a href="left-page-1.html" class="item-link">
+                          <div class="item-content">
+                            <div class="item-inner">
+                              <div class="item-title">Left Page 1</div>
+                            </div>
+                          </div></a></li>
+                      <li><a href="left-page-2.html" class="item-link">
+                          <div class="item-content">
+                            <div class="item-inner">
+                              <div class="item-title">Left Page 2</div>
+                            </div>
+                          </div></a></li>
+                    </ul>
+                  </div>
+                  <div class="content-block-title">Control Main View</div>
+                  <div class="list-block">
+                    <ul>
+                      <li><a href="about.html" data-view=".view-main" class="item-link close-panel">
+                          <div class="item-content">
+                            <div class="item-inner">
+                              <div class="item-title">About</div>
+                            </div>
+                          </div></a></li>
+                      <li><a href="services.html" data-view=".view-main" class="item-link close-panel">
+                          <div class="item-content">
+                            <div class="item-inner">
+                              <div class="item-title">Services</div>
+                            </div>
+                          </div></a></li>
+                      <li><a href="#" data-view=".view-main" class="back item-link close-panel">
+                          <div class="item-content">
+                            <div class="item-inner">
+                              <div class="item-title">Back in history</div>
+                            </div>
+                          </div></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+        </div>
+    </div>
+    <!-- Right view, it is main view-->
+     <div class="view view-main navbar-through">
+        <div class="navbar">
+            <div class="navbar-inner">
+                <div class="center sliding">Home</div>
+                
+                <div class="col-md-4 col-md-offset-3">
+                    <form action="" class="search-form">
+                        <div class="form-group has-feedback">
+                        <label for="search" class="sr-only">Search</label>
+                        <input type="text" class="form-control" name="search" id="search" placeholder="search">
+                          <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                      </div>
+                    </form>
+                </div>
+                <div class="right"><a href="#" data-panel="left" class="link open-panel icon-only"><i class="icon icon-bars"></i></a></div>
+            </div>
+
+            <!-- <div class="row">
+                <div class="col-md-4 col-md-offset-3">
+                    <form action="" class="search-form">
+                        <div class="form-group has-feedback">
+                        <label for="search" class="sr-only">Search</label>
+                        <input type="text" class="form-control" name="search" id="search" placeholder="search">
+                          <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                      </div>
+                    </form>
+                </div>
+            </div> -->
+
+        </div>
+        <!-- Pages-->
+        <div class="pages">
+            <!-- Page, data-page contains page name-->
+            <div data-page="index-1" class="page">
+                <!-- Scrollable page content-->
+                <div class="page-content" style="margin-left:5%;">
+                    <div class="content-block-title">The 4 R's </div>
+                    <div class="content-block">
+                        <div class="content-block-inner">
+                            <p>RECYCLE, REUSE, REDUCE, RECOVER</p>
+                            <p>The 4 R's provides an ecologically sound and environmentally friendly approach to minimizing and managing waste and waste streams.</p>
+
+                            <p>Applying the 4Rs means consuming intelligently, thus making substantial savings (in terms of money, time, pollution, waste and energy) </p>
+                            <!--  <a href="#" data-panel="right" class="open-panel">right panel</a>-->
+                        </div>
+                    </div>
+
+                    <div class="content-block-title">The 4 R's </div>
+                    <div class="content-block">
+                        <div class="content-block-inner" >
+                            <img src="img/4rs.jpg" width="100%" />
+                            <!--  <a href="#" data-panel="right" class="open-panel">right panel</a>-->
+                        </div>
+                    </div>
+
+                    <div class="content-block-title">Why reduce? </div>
+                    <div class="content-block">
+                        <div class="content-block-inner">
+                            <p>We live in an era of over-consumption. Everything can be bought. Everything is monetized. Durable
+                                products are rare.</p><p> And this consumption—goods production, transportation, packaging and waste
+                            management—is all too often at the expense of the environment. At the expense of life. At our children's
+                            and grandchildren's expense.</p>
+                            <!--  <a href="#" data-panel="right" class="open-panel">right panel</a>-->
+                        </div>
+                    </div>
+
+                    <div class="list-block">
+                        <ul>
+                            <li><a href="about.html" class="item-link">
+                                <div class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title"><a href="pictures.html"> Innovative Ideas</a></div>
+                                    </div>
+                                </div></a></li>
+                            <li><a href="about.html" class="item-link">
+                                <div class="item-content">
+                                    <div class="item-inner">
+                                        <div class="item-title"><a href="about.html"> About Us</a></div>
+                                    </div>
+                                </div></a></li>
+                            <li><a href="services.html" class="item-link">
+                                <div class="item-content">
+                                    <div class="item-inner">
+                                        <a href="services.html"> Services</a>
+                                    </div>
+                                </div></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Path to Framework7 Library JS-->
+<script type="text/javascript" src="js/framework7.min.js"></script>
+<!-- Path to your app js-->
+<script type="text/javascript" src="js/my-app.js"></script>
+</body>
+</html>
